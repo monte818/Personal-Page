@@ -1,0 +1,278 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+} 
+@media (max-width:700px){
+    .big-name{
+        font-size: 2em;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 119, 119);
+}
+#Navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(125, 125, 125);
+}
+#pic-phrase{
+    position: absolute;
+    top: 40%;
+    left: 34%; 
+    transform: translate(-100%, -100%); 
+    font-size: 2rem; 
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 4px rgb(255, 33, 33);
+    font-size: 6vh;
+}
+#start-btn{
+    position: absolute;
+    top: 48%;
+    left: 16%; 
+    transform: translate(-100%, -100%); 
+}
+#page-title{
+    margin-right: 40%;
+}
+.last-letter{
+    color: rgb(114, 236, 255);
+}
+.nav-list{
+    justify-content: space-between;
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+.nav-link{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-top: 1em;
+}
+.nav-link:hover{
+    color: rgb(114, 236, 255);
+}
+.second-tile-first{
+    padding-top: 88px;
+    height: 40em;
+    position: relative;
+    background-color: rgb(119, 119, 119);
+}
+.box{
+    max-width: 50em;
+}
+.second-tile-first .big-name{
+    position: relative;
+    top: 40%;
+    transform: translateY(120%);
+    margin-left: 20%;
+    font-size: 4em;
+    display: flex;
+    float: left;
+    font-weight: bold;
+    padding-bottom: .2em;
+    color: rgb(255, 255, 255);
+    border-bottom: rgb(114, 236, 255) 6px solid;
+}
+.second-tile-first #pic{
+    float: right;
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+    filter: brightness(83%);
+}
+
+#photo-bg-box{
+    position: relative;
+    background-color: rgb(255, 33, 33);
+    width: 50%;
+    left: 0;
+    float: left;
+    height: 100%;
+}
+#emoji-box{
+    justify-content: left;
+    display: inline;
+    width: 30%;
+}
+#pic-2{
+    margin-top: -50px;
+    padding-top: -20px;
+    width: 30%;
+}
+.about{
+    height: 100%;
+}
+.about-header{
+    width: 20%;
+    transform: translateX(200%);
+    font-size: 3vw;
+    text-shadow: 1px 1px 5px rgb(114, 236, 255);
+}
+#about-text{
+    float: right;
+    justify-content: end;
+    width: 60%;
+    display: flex;
+    font-size: 1.6vw;
+}
+
+
+.second-tile-sec{
+    height: 42em;
+    position: relative;
+}
+.second-tile-sec #interests{
+    transform: translateX(200%);
+    margin-top: -6%;
+}
+#int-cont{
+    margin-top: 1em;
+    float: right;
+    width: 61%;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+.int-item{
+    margin-left: 2em;
+}
+#third-tile{
+    height: 40em;
+    background-color: rgb(119, 119, 119);
+}
+#trd-cont{
+    height: 40em;
+}
+#experience{
+    font-weight: bold;
+    font-size: 3vw;
+    text-shadow: 1px 1px  5px rgb(114, 236, 255);
+}
+.exp-pic{
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.exp-info{
+    font-size: 1.2vw;
+    float: right;
+}
+.box{
+    transform: translateX(7%);
+    max-width: 60%;
+    height: 50%;
+}
+#thumb-pic{
+    width: 28%;
+    float: right;
+    transform: translateX(-9%);
+    margin-top: 9em;
+}
+#cake-box{
+    height: 4em;
+}
+.foot-container{
+    height: 30em;
+    background-color: rgb(119, 119, 119);
+}
+#last-tile{
+    height: 30em;
+    display: flex;
+}
+.contact-header{
+    transform: translateX(80%);
+    font-size: 3vw;
+    text-shadow: 1px 1px 5px rgb(114, 236, 255);
+    width: 5%;
+    height: 1em;
+}
+.contact-list{
+    padding-left: 2%;
+    /* margin-top: 2em; */
+    list-style-type: none;
+}
+.list-head{
+    font-size: 2.1em;
+}
+.contact-box-1{
+    margin-top: 5em;
+    height: 80%;
+    display: grid;
+    grid-auto-rows: 250px 250px 200px;
+}
+.contact-box-2{
+    margin-top: 5em;
+    width: 15em;
+    margin-left: 20%;
+}
+.box-foot{
+    height: 80%;
+    width: 14em;
+}
+.contact-link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.contact-link:hover{
+    color: rgb(61, 229, 255);
+}
+#get-in{
+    font-size: 2.1em;
+}
+
+/* Second Page */
+@media screen and (max-width: 900px) {
+   
+    #project-title {
+      margin-top: 70px; 
+    }
+  }
+#nav-list-2nd{
+    justify-content: end;
+}
+
+#project-cont{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    height: 80vw;
+
+}
+#title-container{
+    padding-top: 88px;
+}
+#project-title{
+    padding-top: 40px;
+    font-size: 3vw;
+    text-shadow: 1px 1px 5px rgb(114, 236, 255);
+}
+.project-image{
+    margin-top: 1em;
+    max-width: 100%;
+    max-height: auto;
+}
+.project-item{
+    height: 50%;
+}
+.project-item-2nd{
+    margin-top: -100px;
+}
+
+.image-text {
+    text-align: center;
+    top: 50%; 
+    left: 50%; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 1.8vw;
+}
